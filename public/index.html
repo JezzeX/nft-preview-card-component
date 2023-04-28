@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <title>NFT preview card</title>
+</head>
+
+<body class="bg-veryDarkBlue">
+    <!-- Body Div -->
+    <main class="bg-veryDarkBlue flex h-screen font-outfit">
+
+        <!-- Preview card -->
+        <section class="bg-veryDarkBlue1 w-10/12 m-auto px-6 py-5 rounded-2xl lg:w-80">
+
+            <!-- NFT image div -->
+            <section class="relative group">
+                <figure class=" rounded-lg overflow-hidden mb-4">
+                    <img src="img/image-equilibrium.jpg" alt="NFT photo">
+                </figure>
+                <section
+                    class="flex absolute inset-0 bg-cyan bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-500">
+                    <img class="m-auto" src="img/icon-view.svg" alt="">
+                </section>
+            </section>
+
+            <!-- Text div -->
+            <section>
+
+                <p class="text-white text-xl font-semibold mb-3 hover:text-cyan">Equilibrium #3429</p>
+
+                <p class="text-softBlue font-light mb-3">Our Equilibrium collection promotes balance and calm.</p>
+
+                <section class="flex justify-between border-b pb-5">
+                    <nav class=" flex h-5">
+                        <img class="mr-1" src="img/icon-ethereum.svg" alt="">
+                        <p class="text-cyan font-semibold self-center">0.041 ETH</p>
+                    </nav>
+
+                    <nav class="flex h-5">
+                        <img class="mr-1" src="img/icon-clock.svg" alt="">
+                        <p class="text-softBlue font-light self-center">3 days left</p>
+                    </nav>
+                </section>
+            </section>
+
+            <!-- Creator div -->
+            <section class="flex mt-4">
+
+                <figure class="mr-3">
+                    <img class="w-8 border-[2px] rounded-full" src="img/image-avatar.png" alt="">
+                </figure>
+                <p class="text-softBlue font-light self-center">Creation of <span
+                        class="text-white hover:text-cyan">Jules Wyvern</span>
+                </p>
+            </section>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
