@@ -14,7 +14,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Live Site URL: [NFT preview card component](https://jezzex-qr-code-component.netlify.app/)
+- Live Site URL: [NFT preview card component](https://jezzex-nft-preview-card.netlify.app/)
 
 ### Built with
 
